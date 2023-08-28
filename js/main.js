@@ -3,7 +3,7 @@ const ctx = c.getContext("2d");
 
 const game = new Game(ctx);
 
-const audioContext = new AudioContext();
+const audioContext = new AudioContext(window.AudioContext || window.webkitAudioContext);
 
 const beat1 = new SoundPlayer(audioContext,'sound/beat1.wav');
 const beat2 = new SoundPlayer(audioContext,'sound/beat2.wav');
