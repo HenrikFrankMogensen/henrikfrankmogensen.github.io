@@ -20,3 +20,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+#canvas-js {
+  margin: 20px;
+  max-width: 100%;
+}
