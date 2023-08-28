@@ -12,7 +12,7 @@ body {
   border-color: white;
 }
 #left-button-js {
-  -webkit-touch-callout: unset;
+  touch-action: none;
   border: none;
 }
 #button-container {
